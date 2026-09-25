@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>The World's Most Pointless Website</title>
+
+<link rel="stylesheet" href="global.css">
+</head>
+
+<body>
+
+<header class="topbar">
+
+<div>
+<div class="eyebrow">POINTLESS SYSTEM v1.0.0</div>
+
+<h1 id="mainTitle">
+THE WORLD'S MOST POINTLESS WEBSITE
+</h1>
+
+<p>
+There is absolutely no reason for you to be here.
+</p>
+</div>
+
+<div class="clock" id="clock">
+00:00:00
+</div>
+
+</header>
+
+
+<div class="ticker">
+
+<span>BREAKING NEWS:</span>
+
+<span id="newsText">
+Nothing has changed.
+</span>
+
+</div>
+
+
+<main class="layout">
+
+
+<!-- SYSTEM STATUS -->
+
+<section class="panel hero">
+
+<div class="panel-title">
+SYSTEM STATUS
+
+<span class="live">
+● LIVE
+</span>
+</div>
+
+
+<div class="stats-grid">
+
+<div class="stat">
+<small>PURPOSE</small>
+<strong>NONE DETECTED</strong>
+</div>
+
+
+<div class="stat">
+<small>POINTLESSNESS</small>
+<strong id="pointlessness">
+100%
+</strong>
+</div>
+
+
+<div class="stat">
+<small>PRODUCTIVITY</small>
+<strong id="productivity">
+3%
+</strong>
+</div>
+
+
+<div class="stat">
+<small>THREAT LEVEL</small>
+<strong>
+MILDLY INCONVENIENT
+</strong>
+</div>
+
+
+<div class="stat">
+<small>INTERNET</small>
+<strong>
+UNFORTUNATELY ACTIVE
+</strong>
+</div>
+
+
+<div class="stat">
+<small>VIBE LEVEL</small>
+<strong id="vibe">
+82%
+</strong>
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- VISITOR -->
+
+<section class="panel">
+
+<div class="panel-title">
+VISITOR INFORMATION
+</div>
+
+
+<div class="visitor">
+
+<div>
+Species
+
+<span>
+Human
+</span>
+</div>
+
+
+<div>
+Brain activity
+
+<span id="brain">
+Detected
+</span>
+</div>
+
+
+<div>
+Reason for visit
+
+<span>
+Unknown
+</span>
+</div>
+
+
+<div>
+Reason for staying
+
+<span>
+Concerning
+</span>
+</div>
+
+
+<div>
+Time wasted
+
+<span id="timeWasted">
+0:00
+</span>
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- POINTLESS BUTTONS -->
+
+<section class="panel">
+
+<div class="panel-title">
+POINTLESS CONTROLS
+</div>
+
+
+<div class="button-grid">
+
+<button data-action="nothing">
+DO NOTHING
+</button>
+
+
+<button data-action="click">
+CLICK ME
+</button>
+
+
+<button data-action="dont">
+DO NOT CLICK
+</button>
+
+
+<button data-action="important">
+IMPORTANT BUTTON
+</button>
+
+
+<button data-action="emergency">
+EMERGENCY
+</button>
+
+
+<button data-action="fix">
+FIX WEBSITE
+</button>
+
+
+<button data-action="improve">
+MAKE WEBSITE BETTER
+</button>
+
+
+<button
+data-action="worse"
+class="danger"
+>
+MAKE WEBSITE POINTLESS
+</button>
+
+</div>
+
+
+<div
+class="message"
+id="message"
+>
+Awaiting unnecessary input...
+</div>
+
+</section>
+
+
+
+<!-- DIAGNOSTICS -->
+
+<section class="panel">
+
+<div class="panel-title">
+ADVANCED DIAGNOSTICS
+</div>
+
+
+<button
+id="diagnosticButton"
+class="wide-button"
+>
+RUN FULL SYSTEM DIAGNOSTIC
+</button>
+
+
+<div
+class="diagnostics"
+id="diagnostics"
+>
+
+<div>
+CPU
+<span>—</span>
+</div>
+
+
+<div>
+RAM
+<span>—</span>
+</div>
+
+
+<div>
+KEYBOARD
+<span>—</span>
+</div>
+
+
+<div>
+INTERNET
+<span>—</span>
+</div>
+
+
+<div>
+BRAIN
+<span>—</span>
+</div>
+
+
+<div>
+PURPOSE
+<span>—</span>
+</div>
+
+
+<div>
+WEBSITE
+<span>—</span>
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- LOADING BAR -->
+
+<section class="panel">
+
+<div class="panel-title">
+EXTREMELY IMPORTANT LOADING PROCESS
+</div>
+
+
+<div class="loading-label">
+
+<span id="loadingText">
+Loading extremely important information...
+</span>
+
+
+<span id="loadingPercent">
+0%
+</span>
+
+</div>
+
+
+<div class="progress">
+
+<div id="progressBar"></div>
+
+</div>
+
+
+<p
+class="muted"
+id="loadingResult"
+>
+Estimated completion time: unknown.
+</p>
+
+
+<button
+id="finishLoading"
+class="small-button"
+>
+FORCE COMPLETION
+</button>
+
+</section>
+
+
+
+<!-- TERMINAL -->
+
+<section class="panel terminal-panel">
+
+<div class="panel-title">
+POINTLESS TERMINAL
+</div>
+
+
+<div
+class="terminal"
+id="terminal"
+></div>
+
+
+<button
+id="terminalButton"
+class="small-button"
+>
+RUN USELESS COMMAND
+</button>
+
+</section>
+
+
+
+<!-- STATISTICS -->
+
+<section class="panel">
+
+<div class="panel-title">
+USELESS STATISTICS
+</div>
+
+
+<div class="bar-stat">
+
+<div>
+<span>Buttons clicked</span>
+
+<strong id="clickCount">
+0
+</strong>
+</div>
+
+
+<div>
+<span>Lives changed</span>
+
+<strong>
+0
+</strong>
+</div>
+
+
+<div>
+<span>Countries affected</span>
+
+<strong>
+1
+</strong>
+</div>
+
+
+<div>
+<span>GDP contribution</span>
+
+<strong>
+$0.00
+</strong>
+</div>
+
+
+<div>
+<span>Global impact</span>
+
+<strong>
+Questionable
+</strong>
+</div>
+
+</div>
+
+
+<div class="fake-chart">
+
+<div class="chart-title">
+WEBSITE POINTLESSNESS OVER TIME
+</div>
+
+
+<div class="chart-line"></div>
+
+</div>
+
+</section>
+
+
+
+<!-- ACHIEVEMENTS -->
+
+<section class="panel">
+
+<div class="panel-title">
+ACHIEVEMENTS
+</div>
+
+
+<div class="achievements">
+
+<div
+class="achievement locked"
+id="achFirst"
+>
+🏆
+
+<b>
+First Click
+</b>
+
+<small>
+You clicked something.
+</small>
+
+</div>
+
+
+<div
+class="achievement locked"
+id="achStill"
+>
+🏆
+
+<b>
+Still Here?
+</b>
+
+<small>
+You've been here for 30 seconds.
+</small>
+
+</div>
+
+
+<div
+class="achievement locked"
+id="achButtons"
+>
+🏆
+
+<b>
+Button Enthusiast
+</b>
+
+<small>
+Clicked 25 buttons.
+</small>
+
+</div>
+
+
+<div
+class="achievement locked"
+id="achWhy"
+>
+🏆
+
+<b>
+Why Are You Still Here?
+</b>
+
+<small>
+Spent 10 minutes here.
+</small>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- AI -->
+
+<section class="panel">
+
+<div class="panel-title">
+POINTLESS AI ASSISTANT
+</div>
+
+
+<div
+class="chat"
+id="chat"
+>
+
+<div class="ai">
+AI: I am ready to provide absolutely no assistance.
+</div>
+
+</div>
+
+
+<div class="chat-input">
+
+<input
+id="chatInput"
+placeholder="Ask the pointless AI something..."
+>
+
+
+<button id="chatButton">
+ASK
+</button>
+
+</div>
+
+</section>
+
+
+
+<!-- LOGIN -->
+
+<section class="panel">
+
+<div class="panel-title">
+FAKE LOGIN
+</div>
+
+
+<form
+id="loginForm"
+class="login"
+>
+
+<input
+id="username"
+placeholder="Username"
+>
+
+
+<input
+id="password"
+type="password"
+placeholder="Password"
+>
+
+
+<button>
+LOGIN
+</button>
+
+</form>
+
+
+<div
+class="message"
+id="loginMessage"
+>
+No account is required.
+</div>
+
+</section>
+
+
+
+<!-- SETTINGS -->
+
+<section class="panel">
+
+<div class="panel-title">
+ADVANCED SETTINGS
+</div>
+
+
+<div class="settings">
+
+<label>
+<input
+type="checkbox"
+id="seriousMode"
+>
+
+Serious Mode
+</label>
+
+
+<label>
+<input
+type="checkbox"
+id="extraDark"
+>
+
+Extremely Dark Mode
+</label>
+
+
+<label>
+<input
+type="checkbox"
+id="pointlessMode"
+checked
+>
+
+Enable Pointlessness
+</label>
+
+
+<label>
+<input
+type="checkbox"
+id="randomWarnings"
+>
+
+Random Warnings
+</label>
+
+</div>
+
+
+<button
+id="saveSettings"
+class="wide-button"
+>
+SAVE SETTINGS
+</button>
+
+
+<div
+class="message"
+id="settingsMessage"
+></div>
+
+</section>
+
+
+
+<!-- STORE -->
+
+<section class="panel">
+
+<div class="panel-title">
+FAKE STORE
+</div>
+
+
+<div class="store">
+
+<article>
+
+<h3>
+Premium Nothing™
+</h3>
+
+<p>
+$4.99
+</p>
+
+<button class="buy">
+BUY NOW
+</button>
+
+</article>
+
+
+<article>
+
+<h3>
+Nothing Deluxe™
+</h3>
+
+<p>
+$14.99
+</p>
+
+<button class="buy">
+BUY NOW
+</button>
+
+</article>
+
+
+<article>
+
+<h3>
+Absolutely Nothing Pro Max™
+</h3>
+
+<p>
+$49.99
+</p>
+
+<button class="buy">
+BUY NOW
+</button>
+
+</article>
+
+</div>
+
+</section>
+
+
+
+<!-- INTELLIGENCE TEST -->
+
+<section class="panel">
+
+<div class="panel-title">
+INTELLIGENCE TEST
+</div>
+
+
+<p>
+Are you intelligent?
+</p>
+
+
+<div class="button-grid two">
+
+<button class="intelligence">
+YES
+</button>
+
+
+<button class="intelligence">
+NO
+</button>
+
+</div>
+
+
+<div
+class="message"
+id="intelligenceMessage"
+></div>
+
+</section>
+
+
+
+<!-- ABOUT -->
+
+<section class="panel">
+
+<div class="panel-title">
+ABOUT THIS WEBSITE
+</div>
+
+
+<p>
+This website was created because someone had
+the ability to make a website but chose not to
+use that ability responsibly.
+</p>
+
+
+<p class="muted">
+Known bugs: Everything.
+Will they be fixed? No.
+</p>
+
+</section>
+
+</main>
+
+
+
+<footer>
+
+<p>
+THE WORLD'S MOST POINTLESS WEBSITE © Probably
+</p>
+
+<p id="footerStatus">
+System is fine. Probably.
+</p>
+
+</footer>
+
+
+
+<!-- WARNING POPUP -->
+
+<div
+id="warning"
+class="warning hidden"
+>
+
+<div class="warning-box">
+
+<h2>
+⚠ WARNING
+</h2>
+
+
+<p id="warningText">
+Never mind.
+</p>
+
+
+<button id="closeWarning">
+ACKNOWLEDGE NOTHING
+</button>
+
+</div>
+
+</div>
+
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
